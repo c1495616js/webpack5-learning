@@ -1,0 +1,30 @@
+{
+  "name": "webpack5-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --env mode=production --config webpack.base.js",
+    "dev": "webpack --env mode=development --watch --config webpack.base.js",
+    "serve": "webpack serve --env mode=development --config webpack.base.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
